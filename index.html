@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="bn-BD">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nazmul Hasan Shawon — Video Editor & AI Content Maker | Portfolio</title>
+    <meta name="description" content="আমি Nazmul Hasan Shawon। ভিডিও এডিটিং, মোশন গ্রাফিক্স ও AI-বেইসড কনটেন্ট ক্রিয়েশনে দক্ষ। প্রিমিয়ার, আফটার ইফেক্ট ও AI টুল দিয়ে প্রফেশনাল ভিডিও প্রডিউস করি।">
+    <meta name="keywords" content="Video Editor, After Effects, AI Content Maker, Nazmul Hasan Shawon, Premiere Pro, After Effects, DaVinci Resolve, Motion Graphics, Horror Story Videos, Bangladesh">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nazmul-portfolio.example.com/">
+    <meta property="og:title" content="Nazmul Hasan Shawon — Video Editor & AI Content Maker">
+    <meta property="og:description" content="Expert Video Editing & AI-Powered Content Creation. Specializing in documentaries, horror shorts, and map animations.">
+    <meta property="og:image" content="https://picsum.photos/seed/portfolio/1200/630">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Nazmul Hasan Shawon — Portfolio">
+    <meta property="twitter:description" content="Professional Video Editor and AI Content Maker.">
+    <meta property="twitter:image" content="https://picsum.photos/seed/portfolio/1200/630">
+
+    <link rel="icon" href="https://picsum.photos/seed/favicon/32/32" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              gold: '#fb923c',      // Changed to vibrant orange like the screenshot
+              charcoal: '#160d08',  // Changed to deep warm chocolate brown
+              softwhite: '#fafaf9', // Changed to warm white
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              headline: ['Space Grotesk', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+      body { 
+        transition: background-color 0.3s ease, color 0.3s ease;
+        background-color: #160d08;
+      }
+      .bg-glass { 
+        backdrop-filter: blur(10px); 
+        background-color: rgba(22, 13, 8, 0.85); 
+      }
+      .light .bg-glass { background-color: rgba(250, 250, 249, 0.85); }
+      
+      /* Subtle noise texture for that premium look from the screenshot */
+      body::before {
+        content: "";
+        position: fixed;
+        top: 0; left: 0; width: 100%; height: 100%;
+        opacity: 0.03;
+        z-index: 1000;
+        pointer-events: none;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+          scroll-behavior: auto !important;
+        }
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "react": "https://esm.sh/react@^19.2.4"
+  }
+}
+</script>
+</head>
+<body class="bg-charcoal text-softwhite font-sans selection:bg-gold/30 selection:text-gold">
+    <div id="root"></div>
+</body>
+</html>
